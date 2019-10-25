@@ -64,7 +64,7 @@ class App extends Component {
     this.downLoadLength= 20;
     this.offset = 0;
     this.actualSearchTerm = DEFAULT_QUERY;
-    this.enteredSearchTerm = DEFAULT_QUERY,
+    this.enteredSearchTerm = DEFAULT_QUERY;
 
     this.setSearchTopStories = this.setSearchTopStories.bind(this);
     this.onDismiss = this.onDismiss.bind(this);
@@ -105,7 +105,7 @@ class App extends Component {
       if (this.needsToSearchTopStories(pSearchString)) {
         this.fetchSearchTopStories(pSearchString, 0, this.downLoadLength);
       }
-    } 
+    }
   }
   needsToSearchTopStories(searchTerm) {
     console.log('--needsToSearchTopStories: searchTerm=' + searchTerm);
@@ -113,8 +113,8 @@ class App extends Component {
   }
 
   onAdditionSubmit() {
-    const {searchKey} = this.state; 
-    this.fetchSearchTopStories(searchKey, this.state.results[searchKey].hits.length + 
+    const {searchKey} = this.state;
+    this.fetchSearchTopStories(searchKey, this.state.results[searchKey].hits.length +
                                                       this.state.results[searchKey].deletedLines, this.downLoadLength);
   }
 
@@ -149,14 +149,14 @@ class App extends Component {
     const updatedList = this.state.results[searchKey].hits.filter(isNotId);
     const updatedDeletedLines = this.state.results[searchKey].deletedLines + 1
     const updatedCount = this.state.results[searchKey].count - 1
-    this.setState({ 
+    this.setState({
       results: { ...results,
-                 [searchKey]: {hits: updatedList, 
+                 [searchKey]: {hits: updatedList,
                                deletedLines: updatedDeletedLines,
                                count: updatedCount}},
     });
   }
-  
+
   /**
    * updates length property
    */
@@ -165,7 +165,7 @@ class App extends Component {
     console.log("function: onLengthUpdate changed download length from "+this.downLoadLength+" to "+updatedDownLoadLength);
     this.downLoadLength = updatedDownLoadLength;
   }
-  
+
   onUpdate(id) {
     console.log('--onUpdate: id= ' + id);
     const isNotId = item => item.objectID !== id;
@@ -173,16 +173,16 @@ class App extends Component {
     const indexnum = this.state.results[searchKey].hits.findIndex(e => e.objectID === id);
 
     this.setState(update(this.state, {results: { [searchKey]: {hits: {[indexnum]: {author: {$set: "Peti"}}}}}}));
-    
+
   }
- 
+
   componentDidMount() {
     console.log("--componentDidMount:");
 
     const { searchKey } = this.state;
     if (searchKey !== this.actualSearchTerm) {
       this.setState({searchKey: this.actualSearchTerm});
-     
+
       this.fetchSearchTopStories(searchKey);
     }
   }
@@ -203,19 +203,19 @@ class App extends Component {
       <div className="page">
         <div className="interactions">
           <Hello name={this.state.name} />
-          <p>            
+          <p>
             Start editing to see some magic happen :)
           </p>
             <Search
               value = {searchKey}
-              
+
               onSubmit = {this.onSearchSubmit}
             >
               Search
             </Search>
             { result && result.hits && <SimpleTable
                     list = {Object.assign(
-                              {}, 
+                              {},
                               {headerRow: ["Title","Author","Comment Num","Points","Dismiss","Update"]},
                               {adat: result.hits},
                               {downLoadLength},
@@ -228,10 +228,10 @@ class App extends Component {
                     enablePagination = {this.state.enablePagination}
                     onAdditionSubmit = {this.onAdditionSubmit}
               />
-              
+
             }
-            
-         
+
+
           <p>
              Edit <code>App.js</code> and save to reload. Actually no save needed....
           </p>
@@ -256,11 +256,11 @@ const Search = ({value, onSubmit, children}) => {
   const logo = "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg";
   const classes = useStyles();
   const [searchString, setSearchString] = useState(value);
-  
+
   function searchFieldChange(e){
     setSearchString(e.target.value);
   }
-  
+
   function searchFieldSubmit(e) {
 
     e.preventDefault();
@@ -280,8 +280,8 @@ const Search = ({value, onSubmit, children}) => {
         onChange = {searchFieldChange}
       />
 
-      
- 
+
+
       <Button variant="contained" color="primary" type = "submit" className={classes.button}>
         {children}
         <img src={logo} className="App-logo" alt="logo" />
@@ -291,4 +291,4 @@ const Search = ({value, onSubmit, children}) => {
 }
 
 
-export default App; 
+export default App;
