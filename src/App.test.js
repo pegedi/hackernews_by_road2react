@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import renderer from 'react-test-renderer';
-import App from './App';
+import TestRenderer from 'react-test-renderer';
+import App from './App.js';
 
 
 describe('App', () => {
@@ -12,9 +12,10 @@ describe('App', () => {
     });
 
     test('has a valid snapshot', () => {
-        const component = renderer.create(
-            <App />
+        const component = TestRenderer.create(
+            <App />, null
         );
+        const testInstance = component.root;
         const tree = component.toJSON();
         expect(tree).toMatchSnapshot();
 
