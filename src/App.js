@@ -292,3 +292,4 @@ const Search = ({value, onSubmit, children}) => {
 
 
 export default App;
+export {Search};
