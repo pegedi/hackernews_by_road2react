@@ -1,0 +1,372 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SompleTable has a valid snapshot 1`] = `
+<div
+  className="MuiPaper-root MuiPaper-elevation1 makeStyles-root-160 MuiPaper-rounded"
+>
+  <table
+    className="MuiTable-root makeStyles-table-161"
+  >
+    <thead
+      className="MuiTableHead-root"
+    >
+      <tr
+        className="MuiTableRow-root MuiTableRow-head"
+      >
+        <th
+          aria-sort={null}
+          className="MuiTableCell-root makeStyles-head-162 MuiTableCell-head"
+          scope="col"
+        >
+          Title
+        </th>
+        <th
+          aria-sort={null}
+          className="MuiTableCell-root makeStyles-head-162 MuiTableCell-head"
+          scope="col"
+        >
+          Author
+        </th>
+        <th
+          aria-sort={null}
+          className="MuiTableCell-root makeStyles-head-162 MuiTableCell-head"
+          scope="col"
+        >
+          Comment Num
+        </th>
+        <th
+          aria-sort={null}
+          className="MuiTableCell-root makeStyles-head-162 MuiTableCell-head"
+          scope="col"
+        >
+          Points
+        </th>
+        <th
+          aria-sort={null}
+          className="MuiTableCell-root makeStyles-head-162 MuiTableCell-head"
+          scope="col"
+        >
+          Dismiss
+        </th>
+        <th
+          aria-sort={null}
+          className="MuiTableCell-root makeStyles-head-162 MuiTableCell-head"
+          scope="col"
+        >
+          Update
+        </th>
+      </tr>
+    </thead>
+    <tbody
+      className="MuiTableBody-root"
+    >
+      <tr
+        className="MuiTableRow-root MuiTableRow-hover"
+      >
+        <td
+          aria-sort={null}
+          className="MuiTableCell-root MuiTableCell-body"
+        >
+          <a>
+             
+            0 Egri csillagok
+             
+          </a>
+           
+        </td>
+        <td
+          aria-sort={null}
+          className="MuiTableCell-root MuiTableCell-body"
+        >
+          Gárdonyi Géza
+        </td>
+        <td
+          aria-sort={null}
+          className="MuiTableCell-root MuiTableCell-body"
+        >
+          0
+        </td>
+        <td
+          aria-sort={null}
+          className="MuiTableCell-root MuiTableCell-body"
+        >
+          100
+        </td>
+        <td
+          aria-sort={null}
+          className="MuiTableCell-root MuiTableCell-body"
+        >
+          <button
+            className="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary"
+            disabled={false}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onDragLeave={[Function]}
+            onFocus={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            onMouseDown={[Function]}
+            onMouseLeave={[Function]}
+            onMouseUp={[Function]}
+            onTouchEnd={[Function]}
+            onTouchMove={[Function]}
+            onTouchStart={[Function]}
+            tabIndex={0}
+            type="button"
+          >
+            <span
+              className="MuiButton-label"
+            >
+              Dismiss
+            </span>
+          </button>
+        </td>
+        <td
+          aria-sort={null}
+          className="MuiTableCell-root MuiTableCell-body"
+        >
+          <button
+            className="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary"
+            disabled={false}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onDragLeave={[Function]}
+            onFocus={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            onMouseDown={[Function]}
+            onMouseLeave={[Function]}
+            onMouseUp={[Function]}
+            onTouchEnd={[Function]}
+            onTouchMove={[Function]}
+            onTouchStart={[Function]}
+            tabIndex={0}
+            type="button"
+          >
+            <span
+              className="MuiButton-label"
+            >
+              Peti
+            </span>
+          </button>
+        </td>
+      </tr>
+      <tr
+        className="MuiTableRow-root MuiTableRow-hover"
+      >
+        <td
+          aria-sort={null}
+          className="MuiTableCell-root MuiTableCell-body"
+        >
+          <a>
+             
+            1 Piszkos Fred
+             
+          </a>
+           
+        </td>
+        <td
+          aria-sort={null}
+          className="MuiTableCell-root MuiTableCell-body"
+        >
+          Rejtő Jenő
+        </td>
+        <td
+          aria-sort={null}
+          className="MuiTableCell-root MuiTableCell-body"
+        >
+          1
+        </td>
+        <td
+          aria-sort={null}
+          className="MuiTableCell-root MuiTableCell-body"
+        >
+          101
+        </td>
+        <td
+          aria-sort={null}
+          className="MuiTableCell-root MuiTableCell-body"
+        >
+          <button
+            className="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary"
+            disabled={false}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onDragLeave={[Function]}
+            onFocus={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            onMouseDown={[Function]}
+            onMouseLeave={[Function]}
+            onMouseUp={[Function]}
+            onTouchEnd={[Function]}
+            onTouchMove={[Function]}
+            onTouchStart={[Function]}
+            tabIndex={0}
+            type="button"
+          >
+            <span
+              className="MuiButton-label"
+            >
+              Dismiss
+            </span>
+          </button>
+        </td>
+        <td
+          aria-sort={null}
+          className="MuiTableCell-root MuiTableCell-body"
+        >
+          <button
+            className="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary"
+            disabled={false}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onDragLeave={[Function]}
+            onFocus={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            onMouseDown={[Function]}
+            onMouseLeave={[Function]}
+            onMouseUp={[Function]}
+            onTouchEnd={[Function]}
+            onTouchMove={[Function]}
+            onTouchStart={[Function]}
+            tabIndex={0}
+            type="button"
+          >
+            <span
+              className="MuiButton-label"
+            >
+              Peti
+            </span>
+          </button>
+        </td>
+      </tr>
+    </tbody>
+    <tfoot
+      className="MuiTableFooter-root"
+    >
+      <tr
+        className="MuiTableRow-root MuiTableRow-footer"
+      >
+        <td
+          aria-sort={null}
+          className="MuiTableCell-root MuiTablePagination-root MuiTableCell-footer"
+          colSpan={1000}
+        >
+          <div
+            className="MuiToolbar-root MuiToolbar-regular MuiTablePagination-toolbar MuiToolbar-gutters"
+          >
+            <div
+              className="MuiTablePagination-spacer"
+            />
+            <span
+              className="MuiTypography-root MuiTablePagination-caption MuiTypography-caption MuiTypography-colorInherit"
+            >
+              Download Length
+            </span>
+            <div
+              className="MuiInputBase-root MuiTablePagination-input MuiTablePagination-selectRoot"
+              onClick={[Function]}
+            >
+              <select
+                aria-label="Hits per page"
+                className="MuiSelect-root MuiSelect-select MuiTablePagination-select MuiInputBase-input MuiInputBase-inputSelect"
+                multiple={false}
+                onBlur={[Function]}
+                onChange={[Function]}
+                onFocus={[Function]}
+                value={20}
+              >
+                <option
+                  className="MuiTablePagination-menuItem"
+                  value={10}
+                >
+                  10
+                </option>
+                <option
+                  className="MuiTablePagination-menuItem"
+                  value={20}
+                >
+                  20
+                </option>
+                <option
+                  className="MuiTablePagination-menuItem"
+                  value={40}
+                >
+                  40
+                </option>
+                <option
+                  className="MuiTablePagination-menuItem"
+                  value={80}
+                >
+                  80
+                </option>
+              </select>
+              <svg
+                aria-hidden="true"
+                className="MuiSvgIcon-root MuiSelect-icon MuiTablePagination-selectIcon"
+                focusable="false"
+                role="presentation"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M7 10l5 5 5-5z"
+                />
+              </svg>
+            </div>
+            <span
+              className="MuiTypography-root MuiTablePagination-caption MuiTypography-caption MuiTypography-colorInherit"
+            >
+              helló 2 lines of total 20
+            </span>
+            <div
+              className="makeStyles-root-309"
+            >
+              <button
+                aria-label="Next"
+                className="MuiButtonBase-root MuiIconButton-root"
+                disabled={false}
+                onBlur={[Function]}
+                onClick={null}
+                onDragLeave={[Function]}
+                onFocus={[Function]}
+                onKeyDown={[Function]}
+                onKeyUp={[Function]}
+                onMouseDown={[Function]}
+                onMouseLeave={[Function]}
+                onMouseUp={[Function]}
+                onTouchEnd={[Function]}
+                onTouchMove={[Function]}
+                onTouchStart={[Function]}
+                tabIndex={0}
+                type="button"
+              >
+                <span
+                  className="MuiIconButton-label"
+                >
+                  <svg
+                    aria-hidden="true"
+                    className="MuiSvgIcon-root"
+                    focusable="false"
+                    role="presentation"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"
+                    />
+                    <path
+                      d="M0 0h24v24H0V0z"
+                      fill="none"
+                    />
+                  </svg>
+                </span>
+              </button>
+            </div>
+          </div>
+        </td>
+      </tr>
+    </tfoot>
+  </table>
+</div>
+`;
